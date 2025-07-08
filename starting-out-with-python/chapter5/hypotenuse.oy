@@ -1,0 +1,17 @@
+1 # This program calculates the length of a right
+2 # triangle's hypotenuse.
+3 import math
+4
+5 def main():
+6 # Get the length of the triangle's two sides.
+7 a = float(input('Enter the length of side A: '))
+8 b = float(input('Enter the length of side B: '))
+9
+10 # Calculate the length of the hypotenuse.
+11 c = math.hypot(a, b)
+12
+13 # Display the length of the hypotenuse.
+14 print('The length of the hypotenuse is', c)
+15
+16 # Call the main function.
+17 main()
