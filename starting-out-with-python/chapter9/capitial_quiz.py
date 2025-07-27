@@ -23,6 +23,8 @@ quiz = {
 }
 
 def main():
+    score = 0
+
     # Loop through the quiz dictionary
     for question, correct_answer in quiz.items():
         # Ask the question
