@@ -36,7 +36,6 @@ Head to Head
 def main():
     superbowl_winners = build_superbowl_winners_dictionary()
     nfl_teams = build_nfl_teams_list()
-    usa_states = build_usa_states_list()
 
 def build_superbowl_winners_dictionary():
     return {
